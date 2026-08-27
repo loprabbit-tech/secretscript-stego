@@ -1,0 +1,25 @@
+{
+  "name": "secretscript-stego",
+  "version": "1.0.0",
+  "description": "JavaScript steganography obfuscator powered by WebAssembly",
+  "main": "src/encoder.js",
+  "bin": {
+    "secretscript": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "wasm/",
+    "README.md"
+  ],
+  "keywords": [
+    "steganography",
+    "obfuscator",
+    "wasm",
+    "security"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  }
+}
